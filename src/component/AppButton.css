@@ -1,0 +1,9 @@
+.App-button {
+  max-width: 150px;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-radius: 8px;
+  margin: 10px;
+  font-weight: bold;
+}

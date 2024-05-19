@@ -1,0 +1,9 @@
+.App-input {
+  background-color: white;
+  display: flex;
+  min-width: 280px;
+  border: 0px;
+  border-radius: 12px;
+  margin: 10px 15px;
+  padding: 10px;
+}
