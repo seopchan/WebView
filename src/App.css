@@ -1,14 +1,5 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.App-container {
-  max-width: 1200px;
-  min-width: 800px;
-  width: 100%;
+  background-color: #556B2F50;
 }
 
 .App-header {
@@ -24,30 +15,9 @@
 }
 
 .App-body {
-  width: auto;
-  min-height: 100vh;
-}
-
-.App-body-input {
-  display: flex;
-  min-height: 1vh;
-  flex-direction: row;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: whitesmoke;
-}
-
-.App-body-todolist {
-  background-color: white;
-  min-height: 1vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }
-
-.App-card-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-

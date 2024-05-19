@@ -1,0 +1,45 @@
+.Todolist-container {
+  max-width: 1200px;
+  min-width: 800px;
+  width: 100%;
+}
+
+.Todolist-body {
+  width: auto;
+  min-height: 100vh;
+}
+
+.Todolist-header {
+  background-color: white;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.Todolist-input {
+  display: flex;
+  min-height: 1vh;
+  flex-direction: row;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.Todolist-list {
+  background-color: white;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.Todolist-card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
